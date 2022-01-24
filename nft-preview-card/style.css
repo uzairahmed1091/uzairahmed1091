@@ -120,15 +120,16 @@ hr{
     color: hsl(178, 100%, 50%);
 }
 
-.attribution {
-    margin-top: 50px;
-    margin-left: 50%;
+footer {
+    position: absolute;
+    left: 50%;
+    bottom: -10%;
     transform: translate(-50%, 0);
     margin-bottom: 20px;
     font-size: 11px;
     text-align: center;
     color: hsl(0, 0%, 100%);
 }
-.attribution a {
+footer a {
   color: hsl(228, 45%, 44%);
 }
