@@ -1,128 +1,126 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
 
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: hsl(217, 54%, 11%);
-  font-family: 'Outfit', sans-serif;
+  padding-top: 5px;
+  font-family: "Outfit", sans-serif;
 }
 
-.nft{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 11px;
-    background-color: hsl(216, 50%, 16%);
-    padding: 20px;
-    width: 285px;
+.nft {
+  border-radius: 11px;
+  background-color: hsl(216, 50%, 16%);
+  padding: 20px;
+  width: 285px;
 }
 
-.nft__image{
-    overflow: hidden;
-    border-radius: 6px;
-    background-image: url(images/image-equilibrium.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 100%;
-    height: 285px;
-    cursor: pointer;
+.nft__image {
+  overflow: hidden;
+  border-radius: 6px;
+  background-image: url(images/image-equilibrium.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 285px;
+  cursor: pointer;
 }
 
-.nft__imageHover{
-    width: 100%;
-    height: 100%;
+.nft__imageHover {
+  width: 100%;
+  height: 100%;
 }
 
-.nft__imageHover:hover{
-    background-color: hsl(178, 100%, 50% , 0.5);
-    background-image: url(images/icon-view.svg);
-    background-size: 30px 30px;
-    background-repeat: no-repeat;
-    background-position: center;
+.nft__imageHover:hover {
+  background-color: hsl(178, 100%, 50%, 0.5);
+  background-image: url(images/icon-view.svg);
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.nft__name{
-    color: hsl(0, 0%, 100%);
-    font-size: 24px;
-    cursor: pointer;
-    transition: .2s ease-in-out;
+.nft__name {
+  color: hsl(0, 0%, 100%);
+  font-size: 24px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
 }
 
-.nft__name:hover{
-    color: hsl(178, 100%, 50%);
+.nft__name:hover {
+  color: hsl(178, 100%, 50%);
 }
 
-.nft__description{
-    color: hsl(215, 51%, 70%);
-    font-size: 18px;
+.nft__description {
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;
 }
 
-.nft__saleTimeLeftAndPriceContainer{
-    display: flex;
+.nft__saleTimeLeftAndPriceContainer {
+  display: flex;
 }
 
-.nft__saleTimeLeft, .nft__price{
-    width: 50%;
-    font-size: 13px;
+.nft__saleTimeLeft,
+.nft__price {
+  width: 50%;
+  font-size: 13px;
 }
 
-.nft__ethereumIcon, .nft__clockIcon{
-    vertical-align: text-top;
+.nft__ethereumIcon,
+.nft__clockIcon {
+  vertical-align: text-top;
 }
 
-.nft__price{
-    color: hsl(178, 100%, 50%);
-    font-size: 15px;
+.nft__price {
+  color: hsl(178, 100%, 50%);
+  font-size: 15px;
 }
 
-.nft__price img{
-    margin-right: 3px;
+.nft__price img {
+  margin-right: 3px;
 }
 
-.nft__saleTimeLeft{
-    text-align: right;
-    color: hsl(215, 51%, 70%);
-    font-size: 14px;
+.nft__saleTimeLeft {
+  text-align: right;
+  color: hsl(215, 51%, 70%);
+  font-size: 14px;
 }
 
-hr{
-    margin-top: 20px;
-    border: none;
-    border-bottom: solid 1px hsl(215, 32%, 27%);
+hr {
+  margin-top: 20px;
+  border: none;
+  border-bottom: solid 1px hsl(215, 32%, 27%);
 }
 
-.nft__creator{
-    margin-top: 20px;
-    color: hsl(215, 51%, 70%);
+.nft__creator {
+  margin-top: 20px;
+  color: hsl(215, 51%, 70%);
 }
 
-.nft__creatorAvatar{
-    margin-right: 10px;
-    border: solid 2px hsl(0, 0%, 100%);
-    border-radius: 100%;
-    width: 30px;
-    height: auto;
-    vertical-align: middle;
+.nft__creatorAvatar {
+  margin-right: 10px;
+  border: solid 2px hsl(0, 0%, 100%);
+  border-radius: 100%;
+  width: 30px;
+  height: auto;
+  vertical-align: middle;
 }
 
-.nft__creatorName{
-    margin-left: 3px;
-    color: hsl(0, 0%, 100%);
-    cursor: pointer;
+.nft__creatorName {
+  margin-left: 3px;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
 }
 
-.nft__creatorName:hover{
-    color: hsl(178, 100%, 50%);
+.nft__creatorName:hover {
+  color: hsl(178, 100%, 50%);
 }
 
 footer {
-    position: absolute;
-    left: 50%;
-    bottom: -10%;
-    transform: translate(-50%, 0);
-    margin-bottom: 20px;
-    font-size: 11px;
-    text-align: center;
-    color: hsl(0, 0%, 100%);
+  margin-top: 20px;
+  font-size: 11px;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
 }
 footer a {
   color: hsl(228, 45%, 44%);
