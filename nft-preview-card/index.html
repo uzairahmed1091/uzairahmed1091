@@ -16,46 +16,40 @@
     <link rel="stylesheet" type="text/css" href="./style.css" />
   </head>
   <body>
-    <main>
-      <div class="card-main">
-        <div class="image-container">
-          <div class="image-hover"></div>
+    <main class="nft">
+        <div class="nft__image">
+          <div class="nft__imageHover"></div>
         </div>
 
-        <h1 class="nft-name">Equilibrium #3429</h1>
-        <p class="nft-description">
+        <h1 class="nft__name">Equilibrium #3429</h1>
+        <p class="nft__description">
           Our Equilibrium collection promotes balance and calm.
         </p>
 
-        <div class="time-price">
-          <div class="price">
-            <img src="images/icon-ethereum.svg" alt="ETH" />
+        <div class="nft__saleTimeLeftAndPriceContainer">
+          <div class="nft__price">
+            <img class="nft__ethereumIcon" src="images/icon-ethereum.svg" alt="ETH" />
             0.041 ETH
           </div>
-          <div class="time">
-            <img src="images/icon-clock.svg" alt="clock" />
+          <div class="nft__saleTimeLeft">
+            <img class="nft__clockIcon" src="images/icon-clock.svg" alt="clock" />
             &nbsp;3 days left
           </div>
         </div>
 
         <hr />
 
-        <div class="created-by">
-          <div class="avatar">
-            <img src="images/image-avatar.png" alt="avatar" />
-          </div>
-          <div class="text">
-            Creation of <span class="name">Jules Wyvern</span>
-          </div>
+        <div class="nft__creator">
+            <img class="nft__creatorAvatar" src="images/image-avatar.png" alt="avatar" />
+            Creation of <span class="nft__creatorName">Jules Wyvern</span>
         </div>
-      </div>
     </main>
 
     <footer>
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >
+      > &nbsp;
       Coded by <a href="#">Uzair Ahmed (@ingnall)</a>
     </footer>
   </body>
