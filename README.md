@@ -8,8 +8,8 @@ most recently as a Senior Software Engineer at TectSoft.
 
 ## Cited Extract
 
-**[Live demo](https://structured-data-extractor.vercel.app/)** ·
-**[Source](https://github.com/uzairahmed1091/structured-data-extractor)**
+**[Live demo](https://cited-extract.vercel.app/)** ·
+**[Source](https://github.com/uzairahmed1091/cited-extract)**
 
 Documents in, typed and validated JSON out — where every value carries a citation to the
 exact sentence it came from, and fields the document doesn't contain come back `null`
