@@ -26,6 +26,7 @@ shown as "not found". That's enforced in code, not asked of the model.
 Most of what I've built is client work under NDA and isn't public here. The fuller picture
 — marketplaces, AI compliance tooling, App Store apps — is on Upwork.
 
+- [Portfolio](https://dev-uzairahmed.vercel.app)
 - [Upwork](https://www.upwork.com/freelancers/~0172b3413955520d84)
 - [LinkedIn](https://www.linkedin.com/in/uzair-ahmed-1091/)
 - <uzairahmed1091@gmail.com>
